@@ -20,11 +20,11 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
+.seo {
+    color: #d9dcd6d5;
 }
 
-.header div {
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,12 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+nav .section ul {
     list-style-type: none;
 }
 
-.header div ul li {
+nav 
+ ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -51,11 +52,10 @@ p {
 }
 
 .hero {
-    height: 800px;
+    height: 700px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
+    object-fit: cover;
     background-position: center;
 }
 
@@ -75,7 +75,7 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
+.aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
